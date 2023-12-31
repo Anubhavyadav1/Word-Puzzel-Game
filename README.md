@@ -1,19 +1,19 @@
-### Word-Puzzel-Game
+# Word-Puzzel-Game
 
 ## Word Puzzle Game
 
-# Overview
+### Overview
 This Python script implements a simple Word Puzzle game with an AI component. The game generates a random grid of letters, and the player can select letters to form words. The AI component then attempts to find and display additional valid words on the grid.
 
-# Dependencies
+### Dependencies
 pygame: A library for creating games and multimedia applications in Python.
 nltk: The Natural Language Toolkit, used for working with human language data.
 string: A module providing common string operations.
 
-#Usage
+### Usage
 Run the script, and a window will open, displaying the Word Puzzle game. The player can select letters to form words. The AI component finds additional valid words on the grid and displays their paths.
 
-#Main Components
+### Main Components
 
 1. Game Initialization and Configuration
 Pygame Initialization: Initializes the Pygame library for graphical display.
@@ -37,7 +37,7 @@ solve_puzzle(grid): Solves the Word puzzle using the AI component.
 5. User Interaction
 get_grid_size(): Uses Tkinter to prompt the user for the grid size.
 
-# How to Play
+### How to Play
 Run the script.
 Enter the size of the grid when prompted.
 Select letters on the grid to form words.
@@ -45,7 +45,7 @@ The AI component finds additional words and displays their paths.
 The traced words are listed on the right side of the window.
 
 
-# Notes
+### Notes
 Ensure that the required dependencies (pygame, nltk) are installed before running the script.
 The script may need an internet connection to download the NLTK words dataset.
 The AI component uses NLTK's English words dataset to find valid words on the grid.

@@ -133,9 +133,6 @@ def draw_attempted_path(screen, path, cell_size):
     pygame.display.flip()
 
 # Function to find English words and their paths in the grid
-# 
-# THIS IS ACTUALLY AI CODE!!!
-#
 def find_english_words_with_paths(grid):
     words_with_paths = {}
     grid_size = len(grid)
